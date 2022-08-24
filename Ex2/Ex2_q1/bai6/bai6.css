@@ -1,0 +1,26 @@
+
+.t02,th,td{
+    text-align: center;
+    border: 1px solid #FF3BFF;
+    border-collapse: collapse;
+    
+}
+#nocenter{
+    text-align: left;
+}
+th
+{
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+
+.width100{
+    width: 100px;
+}
+.width200{
+    width: 200px;
+}
+.width280{
+    width: 280px;
+}

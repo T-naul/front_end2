@@ -1,0 +1,22 @@
+.t03,td{
+    border: 1.5px solid #6F6F6F;
+    border-collapse: collapse;
+}
+.t03{
+    background-color: #9FF781;
+    color: green;
+    margin-left: 50px;
+}
+td
+{
+    padding-left: 10px; 
+    height: 30px;
+}
+td:nth-child(odd)
+{
+        width: 200px;
+}
+td:nth-child(even)
+{
+        width: 400px;
+}

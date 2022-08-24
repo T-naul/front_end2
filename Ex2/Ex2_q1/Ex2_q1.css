@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+[class *="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+.colorgreen
+{
+    color: green;
+}
+.colorblue
+{
+    color: blue;
+}
+.colorred
+{
+    color: red;
+}
+.colorpink{
+    color: #D52A80;
+}
+.colorviolet{
+    color: #C59FD0;
+}
+
+
+.col-3{width: 25%;}
+.col-4{width: 33%;}
+.col-6{width: 50%;}
+.col-9{width: 75%;}
+.col-8{width: 67%;}
+
+
+@media screen and (max-width:700px) {
+    .col-3{width: 100%;}
+    .col-6{width: 100%;}
+}
+
+
